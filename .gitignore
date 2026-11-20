@@ -1,0 +1,57 @@
+# Dataset, annotations, images, user histories and derived features
+data/
+datasets/
+InstagramImage/
+*.data
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.feather
+*.arrow
+
+# Model weights and experiment-generated artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+checkpoints/
+outputs/
+runs/
+logs/
+*.log
+*.jsonl
+wandb/
+tensorboard/
+events.out.tfevents.*
+
+# Credentials, local environment, and temporary files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+*credentials*
+*secret*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Archives generated during release packaging
+*.zip
+*.tar
+*.tar.gz
+*.tgz
